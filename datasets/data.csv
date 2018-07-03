@@ -1,4 +1,4 @@
-geography,locationAbbr,medianAge,sexRatio,ageDependencyRatio,oldAgeDependencyRatio,childDependencyRatio,medianIncome,percentBelowPoverty,alcoholConsumption,smokers,physicallyActive
+state,abbrv,medianAge,sexRatio,ageDependencyRatio,oldAgeDependencyRatio,childDependencyRatio,medianIncome,percentBelowPoverty,alcoholConsumption,smokers,physicallyActive
 Alabama,AL,38.6,93.9,62,24.9,37,42830,19.3,40.1,21.1,72.4
 Alaska,AK,33.3,109.8,53.5,14.6,38.9,71583,11.2,56.7,19.9,80.8
 Arizona,AZ,36.9,98.7,66.7,26.5,40.2,50068,18.2,51.7,16.5,78.8
