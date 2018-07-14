@@ -7,7 +7,7 @@ var width = svgWidth - margin.left - margin.right;
 var height = svgHeight - margin.top - margin.bottom;
 
 
-// Create an SVG wrapper, append an svg that will hold our chart and shift the latter by left and top margins
+// Create SVG wrapper, append svg that will hold our chart 
 
 var svg = d3.select(".chart")
     .append("svg")
