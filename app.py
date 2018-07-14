@@ -1,6 +1,6 @@
 from flask import Flask,render_template,jsonify
 import pandas as pd
-import tempfile
+import os
 
 app = Flask(__name__)
 
@@ -11,8 +11,8 @@ def hello():
 
 @app.route('/data')
 def data():
-
-    df = pd.read_csv("datasets\\data.csv")
+        
+    df = pd.read_csv("datasets\Data.csv")
     return jsonify(df.to_dict(orient="records"))
 
 
